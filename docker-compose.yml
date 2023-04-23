@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  clinicflow.api:
+    image: ${DOCKER_REGISTRY-}clinicflowapi
+    build:
+      context: .
+      dockerfile: src/ClinicFlow.API/Dockerfile
