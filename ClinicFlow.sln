@@ -11,6 +11,8 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicFlow.Domain", "src\ClinicFlow.Domain\ClinicFlow.Domain.csproj", "{5822CC61-7696-4536-9898-00E5951D2DB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicFlow.Application", "src\ClinicFlow.Application\ClinicFlow.Application.csproj", "{56D96D5C-3A92-4BB2-A5CE-6108B3623728}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{5822CC61-7696-4536-9898-00E5951D2DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5822CC61-7696-4536-9898-00E5951D2DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5822CC61-7696-4536-9898-00E5951D2DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D96D5C-3A92-4BB2-A5CE-6108B3623728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D96D5C-3A92-4BB2-A5CE-6108B3623728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D96D5C-3A92-4BB2-A5CE-6108B3623728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D96D5C-3A92-4BB2-A5CE-6108B3623728}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C287EEDE-9EEC-47B3-B426-67ED54CE615B} = {3015BE17-569C-45ED-B179-E067AC942B91}
 		{5822CC61-7696-4536-9898-00E5951D2DB4} = {3015BE17-569C-45ED-B179-E067AC942B91}
+		{56D96D5C-3A92-4BB2-A5CE-6108B3623728} = {3015BE17-569C-45ED-B179-E067AC942B91}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16931418-3599-4955-9545-87666B413895}
